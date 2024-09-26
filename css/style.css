@@ -41,12 +41,16 @@ section {
   width: 30%;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 .w-60 {
   width: 60%;
 }
 
-.w-40 {
-  width: 40%;
+.w-100 {
+  width: 100%;
 }
 
 .card {
@@ -96,6 +100,7 @@ section {
 
 #business-plan .business-cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
