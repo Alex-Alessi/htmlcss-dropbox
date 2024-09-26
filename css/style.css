@@ -33,6 +33,14 @@ ul {
   max-width: 100%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
 /* HEADER */
 .header-page {
   display: flex;
@@ -45,6 +53,16 @@ ul {
   display: inline-block;
 }
 
+/* SECTION HERO */
+
+#hero .container {
+  position: relative;
+  top: 50px;
+}
+
+#hero .hero-content {
+  display: flex;
+}
 /* DEBUG */
 
 .debug,
