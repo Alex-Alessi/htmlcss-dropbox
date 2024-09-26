@@ -24,6 +24,10 @@ ul {
   list-style-type: none;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /* # UTILS */
 
 .container {
@@ -33,12 +37,28 @@ ul {
   max-width: 100%;
 }
 
+.w-30 {
+  width: 30%;
+}
+
 .w-60 {
   width: 60%;
 }
 
 .w-40 {
   width: 40%;
+}
+
+.card {
+  border: 1px solid black;
+}
+
+.card-header {
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+}
+.card-body {
+  padding: 0.5rem;
 }
 
 /* HEADER */
@@ -62,6 +82,25 @@ ul {
 
 #hero .hero-content {
   display: flex;
+}
+
+/* SECTION BUSINESS PLAN */
+
+#business-plan {
+  padding-top: 100px;
+}
+
+#business-plan .plan-type {
+  display: flex;
+}
+
+#business-plan .business-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+#business-plan .business-cards > * {
+  flex-grow: 1;
 }
 /* DEBUG */
 
