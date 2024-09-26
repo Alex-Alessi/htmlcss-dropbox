@@ -75,6 +75,28 @@ section {
 
 .header-item li {
   display: inline-block;
+  margin-inline: 12px;
+}
+
+.img-logo {
+  align-self: center;
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.blu-box-small-gap {
+  bottom: 80px;
+  left: 0px;
+  width: 45px;
+  height: 20px;
+  background-color: #1600d9;
+  color: white;
+  text-align: center;
+  line-height: 23px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 /* SECTION HERO */
@@ -107,6 +129,7 @@ section {
 #business-plan .business-cards > * {
   flex-grow: 1;
 }
+
 /* DEBUG */
 
 .debug,
